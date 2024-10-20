@@ -1,0 +1,113 @@
+*{
+    background-color: hsl(30, 38%, 92%);
+    color: black;
+}
+
+.box{
+    width:580px;
+    height:450px;
+    /*centering the div/box */
+    margin: auto;           
+    margin-top:70px;
+    border-radius: 10px;
+    align-items: center; 
+    overflow: hidden;
+    background-color:white;
+
+}
+
+.imgg{
+    width:280px;
+    height:450px;
+    float: left;
+    display: block;
+}
+
+/*.textt {
+    padding: 20px;  Add some padding for spacing inside the box 
+    background-color:white;
+    padding: 0;  Remove padding 
+}*/
+
+#product_title{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+h1{
+    font-family: Fraunces;
+    font-weight: 700;
+    color:black;
+    font-size: xx-large;
+    margin-top: -5px;
+
+}
+
+.product_content{
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+    display: grid;
+    padding: 0px 0px 0px 20px;
+    font-size: small;
+    background-color:white;
+
+}
+
+p{
+    font-family: Montserrat;
+    line-height: 28px;
+    margin-top: -5px;
+
+}
+
+.price{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-top: -15px;
+        align-items: center;
+        background-color: transparent; /* Ensure text elements are transparent */
+        margin: 0;
+}
+
+.discount{
+    font-family: Fraunces;
+    font-weight: 700;
+    color:hsl(158, 36%, 37%);
+    font-size: xx-large;
+    background-color: transparent; /* Ensure text elements are transparent */
+    margin: 0;
+}
+
+.ori_price{
+    margin-top: -25px;
+    background-color: transparent; /* Ensure text elements are transparent */
+    margin: 0;
+}
+
+.button{
+    height: 50px;
+    width: 250px;
+    background-color: hsl(158, 36%, 37%);
+    margin: 0 0 10px 50px;
+    border: 1px solid hsl(158, 36%, 37%);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    margin-left: -5px;
+}
+
+.button:is(:hover, :focus){
+    background-color: hsl(158, 36%, 20%);
+    border: 1px solid hsl(158, 36%, 20%);
+
+}
+
+p, h1, button,s {
+    background-color: transparent; /* Ensure text elements are transparent */
+    margin: 0;
+}
