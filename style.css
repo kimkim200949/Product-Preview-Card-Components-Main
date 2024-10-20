@@ -111,3 +111,11 @@ p, h1, button,s {
     background-color: transparent; /* Ensure text elements are transparent */
     margin: 0;
 }
+.attribution{
+    text-align: center;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+a:is(:hover, :focus){
+color: rgb(118, 118, 150);
+}
